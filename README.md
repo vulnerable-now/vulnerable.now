@@ -49,6 +49,3 @@ The site runs without ads or tracking cookies, and our server keeps no request l
 ## Report a security issue privately
 
 If you find a security issue in vulnerable.now itself, email [admin@vulnerable.now](mailto:admin@vulnerable.now). **Do not open a public GitHub issue for a security report.** See the [security policy](https://vulnerable.now/security) for what to include.
-
-
-For a security issue in vulnerable.now itself, use the private reporting instructions on the [security page](https://vulnerable.now/security).
