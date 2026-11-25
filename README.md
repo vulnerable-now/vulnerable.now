@@ -36,15 +36,17 @@ The public API, MCP server, and feeds require no API key.
 
 The catalog draws on the CVE List, NVD, GitHub Advisory Database, OSV, and ENISA EUVD, among other sources. CISA KEV and FIRST EPSS supply exploitation status and likelihood data. See the [full source list](https://vulnerable.now/about#sources) and [how records are merged](https://vulnerable.now/about#merge).
 
+
+
+## Report a bug or request a feature
+
+[Open a GitHub issue](https://github.com/vulnerable-now/vulnerable.now/issues/new) for site bugs, feature requests, or errors in how vulnerable.now shows or merges an advisory. For a bug, include the page URL, what you expected, and what happened. For a catalog correction, include the CVE or advisory ID and a link to the source record. If the source record itself is wrong, report it to the publisher.
+
 ## Privacy
 
 The site runs without ads or tracking cookies, and our server keeps no request logs. Cloudflare handles traffic and provides aggregate analytics.
 
 [Read the full privacy policy](https://vulnerable.now/privacy)
-
-## Report a bug or request a feature
-
-[Open a GitHub issue](https://github.com/vulnerable-now/vulnerable.now/issues/new) for site bugs, feature requests, or errors in how vulnerable.now shows or merges an advisory. For a bug, include the page URL, what you expected, and what happened. For a catalog correction, include the CVE or advisory ID and a link to the source record. If the source record itself is wrong, report it to the publisher.
 
 ## Security
 If you find a security issue in vulnerable.now itself, email [admin@vulnerable.now](mailto:admin@vulnerable.now). **Do not open a public GitHub issue for a security report.** See the [security policy](https://vulnerable.now/security) for what to include.
