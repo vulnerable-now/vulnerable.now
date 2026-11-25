@@ -40,7 +40,7 @@ The catalog draws on the CVE List, NVD, GitHub Advisory Database, OSV, and ENISA
 
 The site runs without ads or tracking cookies, and our server keeps no request logs. Cloudflare handles traffic and provides aggregate analytics.
 
-[Read the full privacy policy](https://vulnerable.now/privacy).
+[Read the full privacy policy](https://vulnerable.now/privacy)
 
 ## Report a bug or request a feature
 
