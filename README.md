@@ -1,6 +1,7 @@
 # vulnerable.now
 
-[vulnerable.now](https://vulnerable.now/) is a public catalog of software vulnerabilities. Look up a CVE, see whether a version you run is affected, and find the fix and the advisory that published it.
+[vulnerable.now](https://vulnerable.now/) is a public catalog of software vulnerabilities. **It’s free to use, private, and requires no account.** Look up a CVE, see whether a version you run is affected, and find the fix and the advisory that published it.
+
 
 ## Search the catalog
 
@@ -18,13 +19,13 @@ You can also [install vulnerable.now as a web app](https://vulnerable.now/#insta
 
 Browse [Packages](https://vulnerable.now/packages) by ecosystem or look up a vendor and product in [Technologies](https://vulnerable.now/tech). Enter the version you run to see which advisories apply and, where the published version ranges allow it, the earliest upgrade that addresses all matching entries. The [WordPress index](https://vulnerable.now/wordpress) covers core, plugins, and themes.
 
-[Check dependencies](https://vulnerable.now/check) accepts supported lockfiles, CycloneDX and SPDX SBOMs, and Wappalyzer exports. Results include affected components, available fixes, and a SARIF download. The file is read in your browser. If you create a share link, the saved report can update as new advisories appear, and it comes with its own RSS feed.
+[Check dependencies](https://vulnerable.now/check) accepts supported lockfiles, CycloneDX and SPDX SBOMs, and Wappalyzer exports. Results include affected components, available fixes, and a SARIF download. If you create a share link, the saved report can update as new advisories appear, and it comes with its own RSS feed.
 
 To check a WordPress installation, use [WordPress site check](https://vulnerable.now/check?mode=wordpress). Enter the core version and the plugin and theme versions, or paste the lists from WP-CLI.
 
 ## API, MCP, and feeds
 
-The public API, MCP server, and feeds are available without an account or API key.
+The public API, MCP server, and feeds require no API key.
 
 - [JSON API documentation](https://vulnerable.now/agents#api) and [OpenAPI definition](https://vulnerable.now/api/v1/openapi.json) cover catalog search, advisory lookups, and dependency checks.
 - [MCP setup](https://vulnerable.now/agents#mcp) explains how to connect to `https://vulnerable.now/mcp` over Streamable HTTP for read-only catalog lookups and checks.
@@ -34,6 +35,12 @@ The public API, MCP server, and feeds are available without an account or API ke
 ## Data sources
 
 The catalog draws on the CVE List, NVD, GitHub Advisory Database, OSV, and ENISA EUVD, among other sources. CISA KEV and FIRST EPSS supply exploitation status and likelihood data. See the [full source list](https://vulnerable.now/about#sources) and [how records are merged](https://vulnerable.now/about#merge).
+
+## Privacy
+
+The site runs without ads or tracking cookies, and our server keeps no request logs. Cloudflare handles traffic and provides aggregate analytics.
+
+[Read the full privacy policy](https://vulnerable.now/privacy).
 
 ## Report a bug or request a feature
 
