@@ -46,4 +46,9 @@ The site runs without ads or tracking cookies, and our server keeps no request l
 
 [Open a GitHub issue](https://github.com/vulnerable-now/vulnerable.now/issues/new) for site bugs, feature requests, or errors in how vulnerable.now shows or merges an advisory. For a bug, include the page URL, what you expected, and what happened. For a catalog correction, include the CVE or advisory ID and a link to the source record. If the source record itself is wrong, report it to the publisher.
 
+## Report a security issue privately
+
+If you find a security issue in vulnerable.now itself, email [admin@vulnerable.now](mailto:admin@vulnerable.now). **Do not open a public GitHub issue for a security report.** See the [security policy](https://vulnerable.now/security) for what to include.
+
+
 For a security issue in vulnerable.now itself, use the private reporting instructions on the [security page](https://vulnerable.now/security).
